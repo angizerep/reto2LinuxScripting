@@ -1,4 +1,9 @@
 Uso touch notas.txt para crear el archivo de notas
 Uso mkdir foo para crear el directorio foo
+Uso nano file1.txt para editar el archivo file1.txt
 Uso cat file1.txt > file2.txt para mover el contenido del archivo file1.txt al archivo file2.txt
 Uso mv foo/dummy/file2.txt foo/empty para mover el archivo file2.txt a la carpeta empty dentro del directorio foo
+
+Uso nano shell.sh para crear el archivo de script
+Uso sudo chmod u+x shell.sh para darle permiso de ejecución al script
+Uso ./shell.sh para ejecutar el script

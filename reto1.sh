@@ -1,14 +1,14 @@
 #! /bin/bash
-if  [ -d "foo/dummy" ] || [ -d "foo/empty" ] 
+if  [ -d "01/foo/dummy" ] || [ -d "01/foo/empty" ] 
     then
         echo "Error: Directory dummy or empty already exists!";
-    elif [  -d "foo" ] 
+    elif [  -d "01/foo" ] 
         then
             echo "Error: Directory foo already exists!";
         else
             echo "Puede crear todo";
-            mkdir foo && mkdir foo/dummy && mkdir foo/empty;
-            echo "Me encanta bash!!" > foo/dummy/file1.txt && touch foo/dummy/file2.txt;
-            cat foo/dummy/file1.txt > foo/dummy/file2.txt;
-            mv foo/dummy/file2.txt foo/empty; 
+            mkdir 01/foo && mkdir 01/foo/dummy && mkdir 01/foo/empty;
+            echo "Me encanta bash!!" > 01/foo/dummy/file1.txt && touch 01/foo/dummy/file2.txt;
+            cat 01/foo/dummy/file1.txt > 01/foo/dummy/file2.txt;
+            mv 01/foo/dummy/file2.txt 01/foo/empty; 
 fi

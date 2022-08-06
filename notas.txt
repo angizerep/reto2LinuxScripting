@@ -7,3 +7,6 @@ Uso mv foo/dummy/file2.txt foo/empty para mover el archivo file2.txt a la carpet
 Uso nano shell.sh para crear el archivo de script
 Uso sudo chmod u+x shell.sh para darle permiso de ejecución al script
 Uso ./shell.sh para ejecutar el script
+
+El archivo del script debe tener como primera linea
+#! /bin/bash
